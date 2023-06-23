@@ -38,14 +38,14 @@ try {
 }
 
 try {
-    fakeFunction()
+    fakeFunction2()
 } catch (err){
     rollbar.critical('very bad error happening')
     console.error(err)
 }
 
 try {
-    fakeFunction()
+    fakeFunction3()
 } catch (err){
     rollbar.warning('please look at this something is not right :(')
     console.error(err)
