@@ -56,4 +56,4 @@ try {
 //     res.status(200).send(res.data)
 // })
 
-app.listen(4000, console.log(`Server runnin on 4000!`))
+app.listen(4000, console.log(`Server runnin on 4000 yes chef!`))
