@@ -37,6 +37,21 @@ try {
     console.error(err)
 }
 
+try {
+    fakeFunction()
+} catch (err){
+    rollbar.critical('very bad error happening')
+    console.error(err)
+}
+
+try {
+    fakeFunction()
+} catch (err){
+    rollbar.warning('please look at this something is not right :(')
+    console.error(err)
+}
+
+
 // app.post('/castle', fakeFunction = (req,res)=>{
 //     res.status(200).send(res.data)
 // })
