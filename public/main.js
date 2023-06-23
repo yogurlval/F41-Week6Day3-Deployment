@@ -5,3 +5,4 @@ const welcome = evt =>{
 }
 
 castle.addEventListener('click', welcome)
+
