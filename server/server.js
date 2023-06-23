@@ -33,6 +33,7 @@ app.get('/profile', (req,res)=>{
 try {
     fakeFunction()
 } catch (err){
+    rollbar.error(error)
     console.error(err)
 }
 
